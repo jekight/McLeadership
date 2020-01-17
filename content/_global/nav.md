@@ -11,5 +11,5 @@ sticky = true
 # Branding options
 [asset]
   image = "Logo.png"
-  text = "Syna"
+  #text = "Syna" 
 +++
