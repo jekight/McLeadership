@@ -1,0 +1,23 @@
+---
+title: <center> Our Mission
+output: 
+  html_document:
+    keep_md: true
+---
+<style type="text/css">
+.main-container {
+  max-width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+ 
+***
+<style>
+body {
+text-align: justify}
+</style>
+
+The McLeadership Youth and Mentoring Foundation is a nonprofit organization created for helping scholars advance their education, while challenging them to grow in their personal life! We believe that every child has a purpose and we are dedicated to helping children navigate life and discover that purpose.
+
+> Intelligence plus character, that is the goal of true education.  - Martin Luther King Jr
