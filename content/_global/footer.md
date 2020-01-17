@@ -17,9 +17,7 @@ background = "dark"
 #### <center> McLeadership
 ##### <center> Youth & Mentoring Foundation, Inc
 
-<center> PO BOX 4121
-<center> Eastman, GA
-<center> 31023
+<center> PO BOX 4121 Eastman, GA 31023
 <center> mcclendonassociates@gmail.com   
 <center> 404-394-7277
 
