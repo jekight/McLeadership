@@ -20,6 +20,6 @@ background = "dark"
 PO BOX 4121
 Eastman, GA
 31023
-mcclendonassociates@gmail.com
+mcclendonassociates@gmail.com   
 404-394-7277
 
