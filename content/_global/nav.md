@@ -10,6 +10,6 @@ sticky = true
 
 # Branding options
 [asset]
-  image = "Logo.png"
+  image = "favicon.svg"
   #text = "Syna" 
 +++
