@@ -12,7 +12,7 @@ subtitle = " "
 
 [header]
   image = "tutoring2.jpg" 
-  height = "500px"
+  height = "1000px"
   
   
 #title = "About Us"  
