@@ -37,7 +37,7 @@ lastmod = ["lastmod", ":git", "date"]
     favicon = "Logo.png"
     favicon_ico_sizes = "16x16 32x32"
     favicon_png = "Logo.png"
-    favicon_svg = "favicon.svg"
+    favicon_svg = "logo.svg"
 
   # Piwik tracking
   [params.analytics.piwik]
@@ -82,14 +82,19 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 30  
 
 [[menu.main]]
+  url = "/tutoring"
+  name = "Tutoring"
+  weight = 40 
+
+[[menu.main]]
   url = "/donate"
   name = "Donate"
-  weight = 40
+  weight = 50
 
 [[menu.main]]
   url = "/contact"
   name = "Contact"
-  weight = 50
+  weight = 60
 
 #[[menu.footer]]
   #url = "#"
