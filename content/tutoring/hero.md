@@ -11,14 +11,14 @@ title = " "
 subtitle = " "
 
 [header]
-  image = "tutoring2.jpg" 
+  #image = "tutoring2.jpg" 
   
   
 #title = "About Us"  
 #subtitle = ""
 
 [asset]
-  #image = "test5.png"
+  image = "tutoring2.jpg"
   #width = "300px" # optional - will default to image width
   #height = "500px" # optional - will default to image height 
 
