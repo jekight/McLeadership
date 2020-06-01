@@ -12,7 +12,7 @@ title_align = "center"
 
 
 [asset]
-  image = "about2.jpeg"
+  image = "tutoring2.jpg"
 +++
 At the McLeadership Youth and Mentoring Foundation, we are focused on providing services to at risk and foster care youth; as well as families in our communities with the highest levels of customer satisfaction & we will do everything we can to meet their expectations. With a variety of offerings to choose from, we're sure you'll be happy working with us.
 
