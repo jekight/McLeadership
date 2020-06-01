@@ -15,8 +15,8 @@ subtitle = " "
   height = "1000px"
   
   
-#title = "About Us"  
-#subtitle = ""
+title = ""  
+subtitle = ""
 
 [asset]
   #image = "tutoring2.jpg"
