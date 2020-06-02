@@ -9,7 +9,7 @@ weight = 20
 
 [[buttons]]
   text = "Explore"
-  url = "#"
+  url = "https://www.mcleadershipatl.com/programs/"
   color = "primary"
 +++
 
