@@ -5,7 +5,7 @@ weight = 20
 
 [asset]
   icon = "fas fa-users"
-  url = "https://www.mcleadershipatl.com/programs/"
+  url = "/programs"
 
 +++
 
