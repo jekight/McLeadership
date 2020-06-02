@@ -11,11 +11,11 @@ particles = false
 #subtitle = " "
 
 [header]
-  image = "tutoring2.png" 
+  image = "tutoring_header.png" 
   
   
 [asset]
-  image = "tutoring_header.png"
+  image = "tutoring_title.png"
   width = "300px" # optional - will default to image width
   #height = "500px" # optional - will default to image height 
 

@@ -11,7 +11,7 @@ title = "Syna Theme"
 #subtitle = "Showcase your next project"
 
 [header]
-  image = "atlanta3.jpg"  
+  image = "programs_header.jpg"  
 
 [asset]
   image = "program_title.png"
