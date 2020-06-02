@@ -1,5 +1,5 @@
 +++
-fragment = "item"
+fragment = "content"
 #disabled = true
 date = "2016-09-07"
 weight = 130
@@ -9,10 +9,6 @@ align = "center"
 title = "Need Help In Math?"
 subtitle = "We are here to help!"
 title_align = "center"
-
-[asset]
-  icon = "fas fa-book"
-  url = "/contact"
 +++
 
   As students transition to higher grade levels they are continuously exposed to more complicated and complex subject material, especially in the area of mathematics. The material builds upon itself never endingly with connections that without the proper attention to detail, will be hidden from the student. When students lose the understanding of how concepts are related, they become discouraged and their ability to progress in math concepts begins to regress. In our experience, this often times occurs when algebra concepts are introduced as this is when the difficulty of the material takes a leap forward. In classrooms across the world, you can almost hear the famous words of many students in your head as they say "since when is there letters in math and when am I ever going to need to solve for x"? To make matters worse, there is not a single answer to this question that will satisfy every student since every student has their own unique interests. When their is a personal interest in a subject, an individual is more motivated to learning and developing their skills in that respected subject. If a student does not understand why they need to know certain concepts or how the subject impacts them directly, then the student may dismiss the subject entirely. Lastly, every teacher wants to prevent a disconnect in a student's interest and learning from occuring. However, teachers are put in a difficult position with the amount of material they are required to cover in a defined set of time. Teachers are forced to design teaching strategies that, to the best of their abilities, address as many learning styles as possible while maintaining an appropriate pace to expose the students to all the concepts. Unfortunately, even with the best of intentions, students fall through the cracks. The connections between the mathematical concepts begin to be lost and the student's personal interest begins to fade. However, not all hope is lost!
