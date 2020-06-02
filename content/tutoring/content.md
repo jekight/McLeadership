@@ -4,7 +4,7 @@ fragment = "item"
 date = "2016-09-07"
 weight = 130
 background = "white"
-align = "left"
+align = "center"
 
 title = "Need Help In Math?"
 subtitle = "We are here to help!"
