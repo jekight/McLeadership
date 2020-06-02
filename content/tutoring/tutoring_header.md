@@ -16,7 +16,7 @@ particles = false
   
 [asset]
   image = "tutoring_header.png"
-  width = "300px" # optional - will default to image width
+  width = "400px" # optional - will default to image width
   #height = "500px" # optional - will default to image height 
 
 +++
