@@ -7,20 +7,16 @@ weight = 1
 particles = false
 
 
-title = " " 
-subtitle = " "
+#title = " " 
+#subtitle = " "
 
 [header]
   image = "tutoring2.jpg" 
-  height = "1000px"
   
   
-title = ""  
-subtitle = ""
-
 [asset]
-  #image = "tutoring2.jpg"
-  #width = "300px" # optional - will default to image width
+  image = "tutoring_header.png"
+  width = "300px" # optional - will default to image width
   #height = "500px" # optional - will default to image height 
 
 +++

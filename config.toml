@@ -125,10 +125,10 @@ lastmod = ["lastmod", ":git", "date"]
   weight = 20
   name = "facebook"
   pre = "fab fa-facebook-f"
-  url = "#"
+  url = "https://www.facebook.com/groups/mccleadershipymf/?ref=share"
 
 [[menu.footer_social]]
   weight = 30
-  name = "linkedin"
+  name = "twitter"
   pre = "fab fa-twitter"
   url = "#"
