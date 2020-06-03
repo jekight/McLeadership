@@ -18,5 +18,4 @@ particles = true
   image = "testimony_title.png"
   width = "300px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
-
 +++
