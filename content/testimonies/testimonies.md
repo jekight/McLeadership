@@ -2,20 +2,20 @@
 fragment = "hero"
 #disabled = true
 date = "2016-09-07"
-weight = 110
+weight = 100
 background = "secondary"
 particles = true
 
 #title_page = true # Default is false
-title = "Syna Theme"
-subtitle = "Showcase your next project"
+#title = "Testimony Page"
+#subtitle = "Showcase your next project"
 
 [header]
-  image = "header.jpg"
+  image = "testimony_header.jpg"
 
 [asset]
-  image = "logo.svg"
-  width = "500px" # optional - will default to image width
+  image = "testimony_title.png"
+  width = "300px" # optional - will default to image width
   #height = "150px" # optional - will default to image height
 
 +++
