@@ -16,10 +16,10 @@ title = "After School Program"
 [asset]
   image = "tutorpic.png"
 
-[[buttons]]
-  text = "Application"
-  url = "#"
-  color = "secondary"
+#[[buttons]]
+  #text = "Application"
+  #url = "#"
+  #color = "secondary"
 +++
 
 The McLeadership Youth and Mentoring Foundation acknowledges that quality education during the early years of a child's education is the most critical education that children will receive. 
@@ -30,4 +30,4 @@ Our After School Tutoring and Learning Program is one of the best in the State o
 
 
 
-We are now accepting applications for the 2016-2017 school year! Please click on the link below for a application.  For more information, please contact Ms. Kelli McClendon, Program Director at 404.538.0519.
+We are accepting applications so if you are interested in our after school program, head over to the Contact Page and fill out the contact form. Our team will then reach out to you shortly! 
