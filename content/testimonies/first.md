@@ -6,7 +6,7 @@ weight = 400
 background = "secondary"
 align = "right"
 
-title = "Kayla H."
+#title = "Kayla H."
 #subtitle = ""
 
 # Subtitle pre and post item
