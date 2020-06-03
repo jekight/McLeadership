@@ -4,7 +4,7 @@ fragment = "hero"
 date = "2016-09-07"
 weight = 100
 background = "secondary"
-particles = true
+particles = false
 
 #title_page = true # Default is false
 #title = "Testimony Page"
