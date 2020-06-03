@@ -12,6 +12,7 @@ particles = true
 
 [header]
   image = "testimony_header.jpg"
+  height = "600px"
 
 [asset]
   image = "testimony_title.png"
