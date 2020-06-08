@@ -11,7 +11,7 @@ align = "center"
 
 +++
 
-"I love the fact that McLeadership has an individualized learning program for myself and the rest of the students. McLeadership is an awesome environment for learning in a fun way. The students always have an enjoyable Summer experience. "
+"I love the fact that McLeadership has an individualized learning program for myself and the rest of the students. McLeadership is an awesome environment for learning in a fun way. The students always have an enjoyable Summer experience."
 
 -Ricky
 
