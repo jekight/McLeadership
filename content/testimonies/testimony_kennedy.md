@@ -3,7 +3,7 @@ fragment = "item"
 #disabled = false
 date = "06/08/20"
 weight = 700
-background = "success"
+background = "secondary"
 align = "center"
 
 #title = "Item Fragment Image Center"
