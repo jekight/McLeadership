@@ -11,7 +11,7 @@ align = "center"
 
 +++
 
-I enjoyed the weekly field trips to so many fun places, the food, seeing my friends and Ms. Kelli! Somedays when my mom comes to pick me up I am not ready to go because it is so much fun!
+"I enjoyed the weekly field trips to so many fun places, the food, seeing my friends and Ms. Kelli! Somedays when my mom comes to pick me up I am not ready to go because it is so much fun!"
 
-- Aubri' F.
+-Aubri' F.
 
