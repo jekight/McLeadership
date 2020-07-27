@@ -1,7 +1,7 @@
 +++
-url = "/contact"
-title = "Contact Page"
+url = "/demo_app"
+title = "Demo App"
 date = "2017-09-07"
 
-#description = "Contact"
+#description = "Demo App"
 +++
