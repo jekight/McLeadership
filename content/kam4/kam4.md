@@ -9,6 +9,11 @@ align = "center"
   text = "Application"
   url = "/images/KAM4_Scholarship_Application.pdf/"
   color = "secondary"
+
+[[buttons]]
+  text = "Demo App"
+  url = "/demo_app"
+  color = "secondary"
 +++
 
 ***
