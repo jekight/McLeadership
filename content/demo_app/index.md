@@ -1,5 +1,4 @@
 +++
-#url = "/demo_app"
 title = "Demo App"
 date = "2017-09-07"
 
