@@ -1,132 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
 <style>
-* {
-  box-sizing: border-box;
-}
-
-input[type=text], select, textarea {
-  width: 75%;
-  padding: 12px;
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
+  box-sizing: border-box;
 }
 
 input[type=submit] {
   width: 50%;
   background-color: #c23f9c;
-  box-align: center;
   color: white;
-  padding: 12px 20px;
+  padding: 14px 20px;
+  margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #912f75;
 }
 
-div.app_page {
+.app_page {
   max-width: 800px;
   margin: auto;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
-
-div.app_25 {
-  float: left;
-  text-align: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-div.app_75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-div.app_submit {
-  float: center;
-  margin: auto;
-  width: 50%;
-  column-span: all;
-}
-
-/* Clear floats after the columns */
-div.app_row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-
-@media screen and (max-width: 600px) {
-  .app_25, .app_75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
 </style>
-</head>
 <body>
 
-<h3><center>KAM4 Scholarship Application</center></h3>
+<h3>KAM4 Scholarship Application</h3>
 
 <div class="app_page">
-  <form action="/action_page.php">
-  <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
-  <div class="app_row">
-    <div class="app_25">
-      <label for="fname">First Name</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    </div>
-  </div>
-  <div class="app_row">
-    <div class="app_25">
-      <label for="lname">Last Name</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    </div>
-  </div>
-  <div class="app_row">
-    <div class="app_25">
-      <label for="country">Country</label>
-    </div>
-    <div class="app_75">
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-    </div>
-  </div>
-  <div class="app_row">
-    <div class="app_25">
-      <label for="subject">Subject</label>
-    </div>
-    <div class="app_75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    </div>
-  </div>
-  <div class="app_25">
-    <div class="app_submit">
-      <center><input type="submit" value="Submit"></center>
-    </div>
-  </div>
+  <form name="Scholarship Application" method="POST" data-netlify="true">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
   </form>
 </div>
+
+</body>
+</html>
