@@ -34,26 +34,26 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-div.container {
+div.app_page {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-div.col-25 {
+div.app_25 {
   float: left;
   width: 25%;
   margin-top: 6px;
 }
 
-div.col-75 {
+div.app_75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
 
 /* Clear floats after the columns */
-div.row:after {
+div.app_row:after {
   content: "";
   display: table;
   clear: both;
@@ -61,7 +61,7 @@ div.row:after {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
+  .app_25, .app_75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
@@ -70,32 +70,32 @@ div.row:after {
 </head>
 <body>
 
-<h2>Responsive Form</h2>
+<h2><center>KAM4 Scholarship Application</center></h2>
 <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
 
-<div class="container">
+<div class="app_page">
   <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
+  <div class="app_row">
+    <div class="app_25">
       <label for="fname">First Name</label>
     </div>
-    <div class="col-75">
+    <div class="app_75">
       <input type="text" id="fname" name="firstname" placeholder="Your name..">
     </div>
   </div>
-  <div class="row">
-    <div class="col-25">
+  <div class="app_row">
+    <div class="app_25">
       <label for="lname">Last Name</label>
     </div>
-    <div class="col-75">
+    <div class="app_75">
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
     </div>
   </div>
-  <div class="row">
-    <div class="col-25">
+  <div class="app_row">
+    <div class="app_25">
       <label for="country">Country</label>
     </div>
-    <div class="col-75">
+    <div class="app_75">
       <select id="country" name="country">
         <option value="australia">Australia</option>
         <option value="canada">Canada</option>
@@ -103,42 +103,16 @@ div.row:after {
       </select>
     </div>
   </div>
-  <div class="row">
-    <div class="col-25">
+  <div class="app_row">
+    <div class="app_25">
       <label for="subject">Subject</label>
     </div>
-    <div class="col-75">
+    <div class="app_75">
       <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
     </div>
   </div>
-  <div class="row">
+  <div class="app_row" style="text-align:center;">
     <input type="submit" value="Submit">
   </div>
   </form>
 </div>
-
-</body>
-</html>
-<h3><center>KAM4 Scholarship Application</center></h3>
-
-<div class="app1">
-  <form name="ScholarshipApp" method="POST" data-netlify="true">
-    <label for="fname">First Name:</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name...">
-
-    <label for="lname">Last Name:</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-  
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
-</body>
-</html>
