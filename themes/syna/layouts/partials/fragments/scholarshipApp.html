@@ -114,7 +114,7 @@ input[type=submit]:hover {
 
 <div class="app_page">
   <form name="Scholarship Application" method="POST" data-netlify="true">
-  <p>Welcome to the online application for the KAM4 Higher Education Scholarship application! This application will be used to establish your eligibility for the KAM4 Scholarship. Please complete this application in its entirety by May 1st to be considered.</p>
+  <p>Welcome to the online application for the KAM4 Higher Education Scholarship application! This application will be used to establish your eligibility for the KAM4 Scholarship. Please complete this application in its entirety by May 1st to be considered. <b>Important note:</b> your application will not save if you exit out before clicking the submit button at the bottom. It is recommended to read through the application first to know what all information is required before getting started!</p>
   <h4><center>Personal Information</center></h4>
   <div class="app_row">
     <div class="app_25">
@@ -184,7 +184,7 @@ input[type=submit]:hover {
       <label for="home phone">Home Phone:</label>
     </div>
     <div class="app_75">
-      <input type="tel" id="home phone" name="home phone" placeholder="###-###-####">
+      <input type="tel" id="home phone" name="home phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
     </div>
   </div>
   
@@ -193,7 +193,7 @@ input[type=submit]:hover {
       <label for="cell phone">Cell Phone:</label>
     </div>
     <div class="app_75">
-      <input type="tel" id="cell phone" name="cell phone" placeholder="###-###-####">
+      <input type="tel" id="cell phone" name="cell phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
     </div>
   </div>
   
@@ -220,7 +220,7 @@ input[type=submit]:hover {
       <label for="parent phone">Parent/Guardian Phone:</label>
     </div>
     <div class="app_75">
-      <input type="tel" id="parent phone" name="parent phone" placeholder="###-###-####">
+      <input type="tel" id="parent phone" name="parent phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
     </div>
   </div>
   
@@ -259,6 +259,17 @@ input[type=submit]:hover {
       <input type="text" id="anticipated major" name="anticipated major" placeholder="Ex. Education, Business, Finance, Biology, etc.">
     </div>
   </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="academic transcript">Academic Transcript:</label>
+    </div>
+    <div class="app_75">
+      <input type="file" id="academic transcript" name="academic transcript">
+    </div>
+  </div>
+  
+  <br>
   <br>
   <h4><center>Community Involvement</center></h4>
   <p>In this section, we want to know about your community involvement! First, please indicate if you have any volunteer experience within the last calendar year. Then, list up to five organizations in which you have volunteered for in your community. Please provide the following information:</p>
@@ -329,6 +340,7 @@ input[type=submit]:hover {
       <textarea id="organization5" name="organization5" placeholder="Organization Name &#10;Organization's Address  &#10;Organization Contact Name &#10;Organization Contact Phone Number &#10;Dates of Service &#10;Responsibilities" style="height:200px"></textarea>
     </div>
   </div>
+  <br>
   <br>
   <h4><center>Essay Requirement</center></h4>
   <p>For the KAM4 Scholarship, we require three essays of at least 1000 words a piece. Below you will find four essay topics, of which you must choose three to submit. When you have choosen which three you are going to write, type your essay in the corresponding box. Please leave one blank line between your paragraghs. You do not have to worry about indenting. <b>Hint:</b> it may be easier to type your essay in Google Docs or a Word document and then copy and paste your essay into the submission box. Google Docs and Word do a great job at keeping up with your word count for you!</p>
