@@ -14,6 +14,14 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
 label {
   padding: 12px 0px 12px 12px;
   display: inline-block;
@@ -76,23 +84,33 @@ input[type=submit]:hover {
 
 <div class="app_page">
   <form name="Scholarship Application" method="POST" data-netlify="true">
-  <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+  <p>Welcome to the online application for the KAM4 Higher Education Scholarship application! This application will be used to establish your eligibility for the KAM4 Scholarship. Please complete this application in its entirety by May 1st to be considered.</p>
   <div class="app_row">
     <div class="app_25">
-      <label for="fname">First Name</label>
+      <label for="fname">First Name:</label>
     </div>
     <div class="app_75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <input type="text" id="fname" name="firstname" placeholder="Your first name...">
     </div>
   </div>
   <div class="app_row">
     <div class="app_25">
-      <label for="lname">Last Name</label>
+      <label for="lname">Last Name:</label>
     </div>
     <div class="app_75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
     </div>
   </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="birthday">Birthday:</label>
+    </div>
+    <div class="app_75">
+      <input type="date" id="birthday" name="birthday">
+    </div>
+  </div>
+  
   <div class="app_row">
     <div class="app_25">
       <label for="country">Country</label>
