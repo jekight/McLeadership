@@ -24,6 +24,15 @@ input[type=date], select, textarea {
   margin-top: 20px;
 }
 
+input[type=number], select, textarea {
+  width: 33%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  margin-top: 20px;
+}
+
 input[type=tel], select, textarea {
   width: 33%;
   padding: 12px;
@@ -165,7 +174,7 @@ input[type=submit]:hover {
       <label for="zip code">Zip Code:</label>
     </div>
     <div class="app_75">
-      <input type="text" id="zip code" name="zip code" placeholder="Your Zip Code...">
+      <input type="number" id="zip code" name="zip code" placeholder="Your Zip Code...">
     </div>
   </div>
   
@@ -219,7 +228,7 @@ input[type=submit]:hover {
       <label for="gpa">GPA:</label>
     </div>
     <div class="app_75">
-      <input type="text" id="gpa" name="gpa" placeholder="Ex. 3.00">
+      <input type="number" id="gpa" name="gpa" placeholder="Ex. 3.00">
     </div>
   </div>
   
