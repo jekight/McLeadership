@@ -5,15 +5,15 @@ weight = 100
 background = "white"
 align = "center"
 
+#[[buttons]]
+  #text = "Application"
+  #url = "/images/KAM4_Scholarship_Application.pdf/"
+  #color = "secondary"
+
 [[buttons]]
   text = "Application"
-  url = "/images/KAM4_Scholarship_Application.pdf/"
+  url = "/KAM4_Application"
   color = "secondary"
-
-#[[buttons]]
-  #text = "Demo App"
-  #url = "/demo_app"
-  #color = "secondary"
 +++
 
 ***
@@ -42,4 +42,4 @@ Best Wishes,
 McLeadership Youth and Mentoring Foundation, Inc.
 
 
-To download a application, click the link below:
+To apply, click the link below:
