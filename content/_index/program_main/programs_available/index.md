@@ -3,7 +3,7 @@ fragment = "items"
 weight = 200
 background = "secondary"
 
-title = "Our Programs"
+#title = "Our Programs"
 #subtitle= "Syna comes with a lot of features"
 +++
 ***
