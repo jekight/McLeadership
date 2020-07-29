@@ -12,7 +12,7 @@ align = "center"
 
 [[buttons]]
   text = "Application"
-  url = "/KAM4_App/KAM4_Application/"
+  url = "/KAM4_Application/"
   color = "secondary"
 +++
 
