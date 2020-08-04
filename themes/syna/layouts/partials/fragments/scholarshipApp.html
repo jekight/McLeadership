@@ -194,7 +194,7 @@ input[type=submit]:hover {
       <label for="home phone">Home Phone:</label>
     </div>
     <div class="app_75">
-      <input type="tel" id="home phone" name="home phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      <input type="text" id="home phone" name="home phone" placeholder="###-###-####">
     </div>
   </div>
   
@@ -203,7 +203,7 @@ input[type=submit]:hover {
       <label for="cell phone">Cell Phone:</label>
     </div>
     <div class="app_75">
-      <input type="tel" id="cell phone" name="cell phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+      <input type="text" id="cell phone" name="cell phone" placeholder="###-###-####">
     </div>
   </div>
   
@@ -213,24 +213,6 @@ input[type=submit]:hover {
     </div>
     <div class="app_75">
       <input type="email" id="email" name="email" placeholder="janedoe@email.com">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="parent(s) name">Parent/Guardian Name(s):</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="parent(s) name" name="parent(s) name" placeholder="Your Parents' Names or Legal Guardian...">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="parent phone">Parent/Guardian Phone:</label>
-    </div>
-    <div class="app_75">
-      <input type="tel" id="parent phone" name="parent phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
     </div>
   </div>
   
@@ -272,17 +254,164 @@ input[type=submit]:hover {
   
   <div class="app_row">
     <div class="app_25">
-      <label for="academic transcript">Academic Transcript:</label>
+      <label for="anticipated start date">Anticipated Start Date:</label>
     </div>
     <div class="app_75">
-      <input type="file" id="academic transcript" name="academic transcript">
+      <input type="date" id="anticipated start date" name="anticipated start date">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="housing plans">Housing Plans:</label>
+    </div>
+    <div class="app_75">
+      <select id="housing plans" name="housing plans" placeholder="Select One">
+        <option value="On Campus">On Campus</option>
+        <option value="Off Campus">Off Campus</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="applied for FAFSA">Have you applied for FAFSA?</label>
+    </div>
+    <div class="app_75">
+      <select id="applied for FAFSA" name="applied for FAFSA" placeholder="Select One">
+        <option value="Yes I applied">Yes I applied</option>
+        <option value="No I have not applied">No I have not applied</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="FAFSA Award Amount">FAFSA Award Amount:</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="FAFSA Award Amount" name="FAFSA Award Amount" placeholder="Dollar amount awarded. Ex: $3000 per year">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="Family Contribution Amount">Family Contribution Amount:</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="Family Contribution Amount" name="Family Contribution Amount" placeholder="Ex. $5000 per semester">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="job">Do you have a job?</label>
+    </div>
+    <div class="app_75">
+      <select id="job" name="job" placeholder="Select One">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="Job Title">Job Title:</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="Job Title" name="Job Title" placeholder="Ex. Cashier">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="self contribution">How much can you contribute to your college education?</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="self contribution" name="self contribution" placeholder="Ex. $2500 per year">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="other scholarships">Applied to other scholarships?</label>
+    </div>
+    <div class="app_75">
+      <select id="other scholarships" name="other scholarships" placeholder="Select One">
+        <option value="Yes, I have applied to others">Yes, I have applied to others</option>
+        <option value="No, I have not applied to others">No, I have not applied to others</option>
+      </select>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="hobbies">Your Hobbies:</label>
+    </div>
+    <div class="app_75">
+      <textarea id="hobbies" name="hobbies" placeholder="Tell us about your hobbies" style="height:200px"></textarea>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="strengths">Your Strengths:</label>
+    </div>
+    <div class="app_75">
+      <textarea id="strengths" name="strengths" placeholder="Tell us about your strengths" style="height:200px"></textarea>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="areas of growth">Your Areas of Growth:</label>
+    </div>
+    <div class="app_75">
+      <textarea id="areas of growth" name="areas of growth" placeholder="Tell us about your areas of growth" style="height:200px"></textarea>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="fun">How do you have fun?</label>
+    </div>
+    <div class="app_75">
+      <textarea id="fun" name="fun" placeholder="Tell us what you do for fun" style="height:200px"></textarea>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="express yourself">How do you express yourself?</label>
+    </div>
+    <div class="app_75">
+      <textarea id="express yourself" name="express yourself" placeholder="Tell us how you express yourself" style="height:200px"></textarea>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="love others">How do you express your love to others?</label>
+    </div>
+    <div class="app_75">
+      <textarea id="love others" name="love others" placeholder="Tell us how you express your love to others" style="height:200px"></textarea>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="stand out">How do you stand out from other applicants?</label>
+    </div>
+    <div class="app_75">
+      <textarea id="stand out" name="stand out" placeholder="Tell us how you stand out from other applicants" style="height:200px"></textarea>
     </div>
   </div>
   
   <br>
   <br>
   <h3><center>Community Involvement</center></h3>
-  <p>In this section, we want to know about your community involvement! First, please indicate if you have any volunteer experience within the last calendar year. Then, list up to five organizations in which you have volunteered for in your community. Please provide the following information:</p>
+  <p>In this section, we want to know about your community involvement! First, please indicate if you have any volunteer experience within the last calendar year. Then, list the previous two organizations in which you have volunteered for in your community. Please provide the following information:</p>
   <u1>
     <li>Organization's Name:</li>
     <li>Organization's Address:</li>
@@ -292,7 +421,7 @@ input[type=submit]:hover {
     <li>Responsibilities:</li>
   </u1>
   <br>
-  <p>Double check to make sure all required information is correct, as all information provided will be verified.If you do not have five experiences, then type <b>NONE</b> in the corresponding box.</p>
+  <p>Double check to make sure all required information is correct, as all information provided will be verified.If you do not have two experiences, then type <b>NONE</b> in the corresponding box.</p>
   <br>
   <div class="app_row">
     <div class="app_25">
@@ -410,240 +539,47 @@ input[type=submit]:hover {
   <br>
   <hr style="border: 2px solid#21b0ea;" />
   <br>
-  
-  <h5>Organization #3</h5>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization Name #3">Organization Name:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization Name #3" name="Organization Name #3" placeholder="Organization Name...">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #3 Address">Organization Address:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #3 Address" name="Organization Address #3" placeholder="Ex. 1234 Street Name Atlanta, GA 30213">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #3 Phone">Organization Contact Phone:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #3 Phone" name="Organization Phone #3" placeholder="###-###-####">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #3 Dates">Dates of Service:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #3 Dates" name="Organization #3 Dates" placeholder="Ex. 01/01/20 through 12/31/20">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #3 Responsibilities">Responsibilities:</label>
-    </div>
-    <div class="app_75">
-      <textarea id="Organization #3 Responsibilities" name="Organization #3 Responsibilities" placeholder="Your Responsibilities..." style="height:200px"></textarea>
-    </div>
-  </div>
-  
-  <br>
-  <hr style="border: 2px solid#21b0ea;" />
   <br>
   
-  <h5>Organization #4</h5>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization Name #4">Organization Name:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization Name #4" name="Organization Name #4" placeholder="Organization Name...">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #4 Address">Organization Address:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #4 Address" name="Organization Address #4" placeholder="Ex. 1234 Street Name Atlanta, GA 30213">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #4 Phone">Organization Contact Phone:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #4 Phone" name="Organization Phone #4" placeholder="###-###-####">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #4 Dates">Dates of Service:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #4 Dates" name="Organization #4 Dates" placeholder="Ex. 01/01/20 through 12/31/20">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #4 Responsibilities">Responsibilities:</label>
-    </div>
-    <div class="app_75">
-      <textarea id="Organization #4 Responsibilities" name="Organization #4 Responsibilities" placeholder="Your Responsibilities..." style="height:200px"></textarea>
-    </div>
-  </div>
-  
-  <br>
-  <hr style="border: 2px solid#21b0ea;" />
-  <br>
-  
-  <h5>Organization #5</h5>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization Name #5">Organization Name:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization Name #5" name="Organization Name #5" placeholder="Organization Name...">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #5 Address">Organization Address:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #5 Address" name="Organization Address #5" placeholder="Ex. 1234 Street Name Atlanta, GA 30213">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #5 Phone">Organization Contact Phone:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #5 Phone" name="Organization Phone #5" placeholder="###-###-####">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #5 Dates">Dates of Service:</label>
-    </div>
-    <div class="app_75">
-      <input type="text" id="Organization #5 Dates" name="Organization #5 Dates" placeholder="Ex. 01/01/20 through 12/31/20">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="Organization #5 Responsibilities">Responsibilities:</label>
-    </div>
-    <div class="app_75">
-      <textarea id="Organization #5 Responsibilities" name="Organization #5 Responsibilities" placeholder="Your Responsibilities..." style="height:200px"></textarea>
-    </div>
-  </div>
-  <br>
-  <br>
   <h3><center>Essay Requirement</center></h3>
-  <p>For the KAM4 Scholarship, we require three essays of at least 1000 words a piece. Below you will find four essay topics, of which you must choose three to submit. When you have choosen which three you are going to write, type your essay in the corresponding box. Please leave one blank line between your paragraghs. You do not have to worry about indenting. <b>Hint:</b> it may be easier to type your essay in Google Docs or a Word document and then copy and paste your essay into the submission box. Google Docs and Word do a great job at keeping up with your word count for you!</p>
-  <dl>
-    <dt>Essay #1</dt>
-    <dd>- What does giving mean to you and why? In the previous year, how have you given back? To whom did you give back and why?</dd>
-    <dt>Essay #2</dt>
-    <dd>- How will the KAM4 Scholarship help you in your educational endeavors?</dd>
-    <dt>Essay #3</dt>
-    <dd>- Explain the process and theory of sowing and reaping. What does sowing and reaping mean to you? How have you seen the principle of sowing and reaping in your life?</dd>
-    <dt>Essay #4</dt>
-    <dd>- Why do you desire a higher education? What are your goals, inspirations, challenges, motivations and motivators? Provide a brief description of any special circumstances you feel should be considered by the Board of Directors.</dd>
-  </dl>
+  <p>For the KAM4 Scholarship, we require one essay that is between 500 and 1200 words. Below you will find the following information you should write about in your essay. When you are writing/inputting your essay, please leave one blank line between your paragraghs. You do not have to worry about indenting. <b>Hint:</b> it may be easier to type your essay in Google Docs or a Word document and then copy and paste your essay into the submission box. Google Docs and Word do a great job at keeping up with your word count for you!</p>
+  <u1>
+    <li>Who are you?</li>
+    <li>Where are you from?</li>
+    <li>What college are you planning to attend?</li>
+    <li>Your reason for selecting the college that you chose to attend?</li>
+    <li>What major/degree study courses do you want to obtain?</li>
+    <li>Your reason for selecting the major/degree that you chose to study in?</li>
+    <li>What are your goals, inspirations, challenges, and motivations?</li>
+    <li>How do you plan to use your degree in the future to help others?</li>
+    <li>What does "giving" mean to you?</li>
+    <li>How have you given back, to whom, where and why?</li>
+    <li>How will this scholarship help you in your educational endeavors?</li>
+</u1>
   <br>
   
   <div class="app_row">
     <div class="app_25">
-      <label for="essay1">Essay #1:</label>
+      <label for="essay">Essay:</label>
     </div>
     <div class="app_75">
-      <textarea id="essay1" name="essay1" placeholder="Essay #1" style="height:200px"></textarea>
+      <textarea id="essay" name="essay" placeholder="Your essay..." style="height:200px"></textarea>
     </div>
   </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="essay2">Essay #2:</label>
-    </div>
-    <div class="app_75">
-      <textarea id="essay2" name="essay2" placeholder="Essay #2" style="height:200px"></textarea>
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="essay3">Essay #3:</label>
-    </div>
-    <div class="app_75">
-      <textarea id="essay3" name="essay3" placeholder="Essay #3" style="height:200px"></textarea>
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="essay4">Essay #4:</label>
-    </div>
-    <div class="app_75">
-      <textarea id="essay4" name="essay4" placeholder="Essay #4" style="height:200px"></textarea>
-    </div>
-  </div>
-  
   <br>
+  <h3><center>Additional Documents</center></h3>
   <br>
-  <h3><center>Letters of Recommendation</center></h3>
-  <p>This scholarship requires 3 Letters of Recommendations. Preferrably, the Letters of Recommendations will come from teachers, supervisors, organization leaders, etc. Please attach your three Letters of Recommendations below! </p>
-  <br>
+  <p>For your application to be complete, we need you to submit <b>one high school academic transript that reflects your GPA</b> and <b>one college acceptance letter</b>. You may submit your documents to us via email or mail.</p>
   <br>
   
-  <div class="app_row">
-    <div class="app_25">
-      <label for="letter1">Recommendation Letter #1:</label>
-    </div>
-    <div class="app_75">
-      <input type="file" id="letter1" name="letter1">
-    </div>
-  </div>
+  <p><b>Via Email:</b> To submit your high school transript and college acceptance letter to us by email, please address the email to: mcclendonassociates@gmail.com. In the subject line, please provide your name and the name of the scholarship in which you are applying for. For example, <b>SUBJECT: (Your Name) Documents For KAM4 Scholarship</b>. </p>
+  <br>
   
-  <div class="app_row">
-    <div class="app_25">
-      <label for="letter2">Recommendation Letter #2:</label>
-    </div>
-    <div class="app_75">
-      <input type="file" id="letter2" name="letter2">
-    </div>
-  </div>
-  
-  <div class="app_row">
-    <div class="app_25">
-      <label for="letter3">Recommendation Letter #3:</label>
-    </div>
-    <div class="app_75">
-      <input type="file" id="letter3" name="letter3">
-    </div>
-  </div>
+  <p><b>Via Mail:</b>To submit your high school transcript and college acceptance letter to us by mail, please address your letter to the following address:</p>
+  <center>McLeadership Youth and Mentoring Foundation, Inc.
+  PO BOX 4121
+  Eastman, GA 31023</center>
+  <p>If you choose to mail the required documents, make sure you include your name and which scholarship you are applying for!</p>
   
   <br>
   <div data-netlify-recaptcha="true"></div>
