@@ -59,7 +59,7 @@ input[type=file], select, textarea {
 }
 
 label {
-  padding: 12px 0px 12px 12px;
+  padding: 6px 0px 12px 12px;
   display: inline-block;
   margin-top: 20px;
 }
@@ -124,7 +124,7 @@ input[type=submit]:hover {
   <p class="hidden">
     <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
   </p>
-  <p>Welcome to the online application for the KAM4 Higher Education Scholarship application! This application will be used to establish your eligibility for the KAM4 Scholarship. Please complete this application in its entirety by May 1st to be considered. <b>Important note:</b> your application will not save if you exit out before clicking the submit button at the bottom. It is recommended to read through the application first to know what all information is required before getting started!</p>
+  <p>Welcome to the online application for the KAM4 Higher Education Scholarship application! This application will be used to establish your eligibility for the KAM4 Scholarship. Please complete this application in its entirety by July 31st to be considered. <b>Important note:</b> your application will not save if you exit out before clicking the submit button at the bottom. It is recommended to read through the application first to know what all information is required before getting started!</p>
   <h3><center>Personal Information</center></h3>
   <div class="app_row">
     <div class="app_25">
@@ -279,8 +279,8 @@ input[type=submit]:hover {
     </div>
     <div class="app_75">
       <select id="applied for FAFSA" name="applied for FAFSA" placeholder="Select One">
-        <option value="Yes I applied">Yes I applied</option>
-        <option value="No I have not applied">No I have not applied</option>
+        <option value="Yes, I applied">Yes I applied</option>
+        <option value="No, I have not applied">No I have not applied</option>
       </select>
     </div>
   </div>
@@ -312,6 +312,15 @@ input[type=submit]:hover {
         <option value="Yes">Yes</option>
         <option value="No">No</option>
       </select>
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="company name">Where do you work?</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="company name" name="company name" placeholder="Name of the place where you work...">
     </div>
   </div>
   
@@ -350,7 +359,7 @@ input[type=submit]:hover {
       <label for="hobbies">Your Hobbies:</label>
     </div>
     <div class="app_75">
-      <textarea id="hobbies" name="hobbies" placeholder="Tell us about your hobbies" style="height:200px"></textarea>
+      <textarea id="hobbies" name="hobbies" placeholder="Tell us about your hobbies..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -359,7 +368,7 @@ input[type=submit]:hover {
       <label for="strengths">Your Strengths:</label>
     </div>
     <div class="app_75">
-      <textarea id="strengths" name="strengths" placeholder="Tell us about your strengths" style="height:200px"></textarea>
+      <textarea id="strengths" name="strengths" placeholder="Tell us about your strengths..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -368,7 +377,7 @@ input[type=submit]:hover {
       <label for="areas of growth">Your Areas of Growth:</label>
     </div>
     <div class="app_75">
-      <textarea id="areas of growth" name="areas of growth" placeholder="Tell us about your areas of growth" style="height:200px"></textarea>
+      <textarea id="areas of growth" name="areas of growth" placeholder="Tell us about your areas of growth..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -377,7 +386,7 @@ input[type=submit]:hover {
       <label for="fun">How do you have fun?</label>
     </div>
     <div class="app_75">
-      <textarea id="fun" name="fun" placeholder="Tell us what you do for fun" style="height:200px"></textarea>
+      <textarea id="fun" name="fun" placeholder="Tell us what you do for fun..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -386,7 +395,7 @@ input[type=submit]:hover {
       <label for="express yourself">How do you express yourself?</label>
     </div>
     <div class="app_75">
-      <textarea id="express yourself" name="express yourself" placeholder="Tell us how you express yourself" style="height:200px"></textarea>
+      <textarea id="express yourself" name="express yourself" placeholder="Tell us how you express yourself..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -395,7 +404,7 @@ input[type=submit]:hover {
       <label for="love others">How do you express your love to others?</label>
     </div>
     <div class="app_75">
-      <textarea id="love others" name="love others" placeholder="Tell us how you express your love to others" style="height:200px"></textarea>
+      <textarea id="love others" name="love others" placeholder="Tell us how you express your love to others..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -404,7 +413,7 @@ input[type=submit]:hover {
       <label for="stand out">How do you stand out from other applicants?</label>
     </div>
     <div class="app_75">
-      <textarea id="stand out" name="stand out" placeholder="Tell us how you stand out from other applicants" style="height:200px"></textarea>
+      <textarea id="stand out" name="stand out" placeholder="Tell us how you stand out from other applicants..." style="height:200px"></textarea>
     </div>
   </div>
   
@@ -469,6 +478,15 @@ input[type=submit]:hover {
   
   <div class="app_row">
     <div class="app_25">
+      <label for="Organization #1 Contact">Organization Contact Person:</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="Organization #1 Contact" name="Organization #1 Contact" placeholder="Organization Contact Person...">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
       <label for="Organization #1 Dates">Dates of Service:</label>
     </div>
     <div class="app_75">
@@ -515,6 +533,15 @@ input[type=submit]:hover {
     </div>
     <div class="app_75">
       <input type="text" id="Organization #2 Phone" name="Organization Phone #2" placeholder="###-###-####">
+    </div>
+  </div>
+  
+  <div class="app_row">
+    <div class="app_25">
+      <label for="Organization #1 Contact">Organization Contact Person:</label>
+    </div>
+    <div class="app_75">
+      <input type="text" id="Organization #1 Contact" name="Organization #1 Contact" placeholder="Organization Contact Person...">
     </div>
   </div>
   
@@ -570,15 +597,15 @@ input[type=submit]:hover {
   <h3><center>Additional Documents</center></h3>
   <br>
   <p>For your application to be complete, we need you to submit <b>one high school academic transript that reflects your GPA</b> and <b>one college acceptance letter</b>. You may submit your documents to us via email or mail.</p>
-  <br>
+
   
-  <p><b>Via Email:</b> To submit your high school transript and college acceptance letter to us by email, please address the email to: mcclendonassociates@gmail.com. In the subject line, please provide your name and the name of the scholarship in which you are applying for. For example, <b>SUBJECT: (Your Name) Documents For KAM4 Scholarship</b>. </p>
+  <p><b>Via Email:</b> To submit your high school transript and college acceptance letter to us by email, please address the email to: <b>mcclendonassociates@gmail.com</b>. In the subject line, please provide your name and the name of the scholarship in which you are applying for. For example, <b>SUBJECT: (Your Name) Documents For KAM4 Scholarship</b>. </p>
   <br>
   
   <p><b>Via Mail:</b>To submit your high school transcript and college acceptance letter to us by mail, please address your letter to the following address:</p>
-  <center>McLeadership Youth and Mentoring Foundation, Inc.
-  PO BOX 4121
-  Eastman, GA 31023</center>
+  <center>McLeadership Youth and Mentoring Foundation, Inc.</center>
+  <center>PO BOX 4121</center>
+  <center>Eastman, GA 31023</center>
   <p>If you choose to mail the required documents, make sure you include your name and which scholarship you are applying for!</p>
   
   <br>
