@@ -3,7 +3,7 @@ fragment = "item"
 title = "KAM4 Scholarship"
 weight = 100
 background = "white"
-align = "center"
+align = "left"
 
 #[[buttons]]
   #text = "Application"
