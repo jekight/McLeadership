@@ -8,7 +8,7 @@ background = "white"
 
 ***
 
-The McLeadership Youth and Mentoring Foundation, Inc.is proud to present its 2021 Scholarship Series. Educational excellence is a value of McLeadership and through the generosity of our board members and esteemed donors, it is our pleasure to do our part in supporting higher learning initiatives. This 2021 scholarship application is for presently enrolled college students with a cumulative 3.25 or above grade point average. Scholarship awards range in nominal amounts up to $1500 and must be used towards college tuition fees, books, and or school supplies for the awarded recipient.
+The McLeadership Youth and Mentoring Foundation, Inc.is proud to present its 2021 Scholarship Series. Educational excellence is a value of McLeadership and through the generosity of our board members and esteemed donors, it is our pleasure to do our part in supporting higher learning initiatives. This 2021 Continuing College Scholarship application is for presently enrolled college students with a cumulative 3.25 or above grade point average. Scholarship awards range in nominal amounts up to $1500 and must be used towards college tuition fees, books, and or school supplies for the awarded recipient.
 
 A part of McLeadership’s commitment to the community is our continued accessibility to the scholarship recipients and our mission to “give with a purpose.” Our award recipients are encouraged to stay connected to the foundation as we are supportive with tools, information, and resources that empower students towards fulfilling their educational goals. McLeadership recognizes the importance of building relationships and are excited to be a part of our scholarship recipient’s success story. 
 
