@@ -29,7 +29,7 @@ title = "McLeadership Website"
   color = "primary"
   
 [[buttons]]
-  text = "Back To School Flyer"
+  text = "Back To School"
   url = "/images/Back_To_School_Flyer.pdf/"
   color = "primary"
 
