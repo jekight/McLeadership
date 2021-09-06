@@ -84,17 +84,22 @@ lastmod = ["lastmod", ":git", "date"]
 [[menu.main]]
   url = "/tutoring"
   name = "Tutoring"
-  weight = 40 
+  weight = 40
+
+[[menu.main]]
+  url = "/iThrive"
+  name = "iThrive"
+  weight = 50   
 
 [[menu.main]]
   url = "/donate"
   name = "Donate"
-  weight = 50
+  weight = 60
 
 [[menu.main]]
   url = "/contact"
   name = "Contact"
-  weight = 60
+  weight = 70
 
 #[[menu.footer]]
   #url = "#"
@@ -127,8 +132,8 @@ lastmod = ["lastmod", ":git", "date"]
   pre = "fab fa-facebook-f"
   url = "https://www.facebook.com/groups/mccleadershipymf/?ref=share"
 
-[[menu.footer_social]]
-  weight = 30
-  name = "twitter"
-  pre = "fab fa-twitter"
-  url = "#"
+#[[menu.footer_social]]
+  #weight = 30
+  #name = "twitter"
+  #pre = "fab fa-twitter"
+  #url = "#"
